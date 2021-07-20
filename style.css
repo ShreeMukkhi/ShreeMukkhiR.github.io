@@ -1,0 +1,125 @@
+  * {
+   box-sizing: border-box;
+  }
+ 
+  body {
+   margin: 0px;
+   padding: 0px;
+   font: poppins;
+  }
+ 
+  #main {
+   width: 100;
+   height: 50vh;
+   position: relative;
+  }
+ 
+  nav {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: white;
+   box-shadow: 5px 10px 30px rgba(0,0,0,0.2);
+   z-index: 10;
+  }
+    
+  .logo img{
+    height: 90px;
+  }  
+  
+  .menu{
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li a{
+    height: 45px;
+    line-height:47px;
+    margin: 3px;
+    padding: 0px 24px;
+    display: flex;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: purple;
+  }
+    
+  a {
+    text-decoration: none;
+  }
+  
+  .hey {
+    color: violet;
+    font-weight: 500;
+    font-size: 0.9em;
+    border-bottom: 1px solid purple ;
+  }
+  
+  .image {
+    width: 500px;
+    height: 500px;
+  }
+  
+  .image img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+  }
+  
+  .Content {
+    display: flex;
+    width: 90%;
+    justify-content: spaced-around;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%)
+  }
+  
+  .main-text {
+    width: 500px;
+  }
+  
+  .main-text h1 {
+    font-size: 2.5em;
+    color: lightblue;
+    margin: 0px 0px 10px 0px;
+    line-height: 60px;
+  }
+ 
+  .main-text p {
+    font-size: 1.5em;
+    color: pink;
+  }
+  
+  .resume-btn {
+    width: 190px;
+    height: 40px;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: skyblue;
+    border-radius: 20px;
+    box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+    
+  }
+  
+  .resume-btn:hover {
+    background-color: violet;
+    transition: all ease 0.2s;
+    transition-duration: 0.2s;
+  }
+  
+  .menu li a:hover {
+    background-color: skyblue;
+    color: white;
+    box-shadow: 5px 10px 30px rgba(24,140,119,0.2);
+  }
